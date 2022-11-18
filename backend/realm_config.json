@@ -1,0 +1,9 @@
+{
+    "app_id": "triviaflexible-zuyoo",
+    "config_version": 20210101,
+    "name": "TriviaFlexible",
+    "location": "IE",
+    "provider_region": "aws-eu-west-1",
+    "deployment_model": "LOCAL",
+    "environment": "development"
+}

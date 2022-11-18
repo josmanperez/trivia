@@ -1,0 +1,8 @@
+{
+    "user": {
+        "ref": "#/relationship/mongodb-atlas/trivia_flexible/User",
+        "source_key": "user",
+        "foreign_key": "_id",
+        "is_list": false
+    }
+}

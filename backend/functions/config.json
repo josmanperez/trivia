@@ -1,0 +1,27 @@
+[
+    {
+        "name": "createNewUser",
+        "private": true,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "getLastGameStats",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "rankingSorted",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "addNewGame",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "calculateRanking",
+        "private": true
+    }
+]

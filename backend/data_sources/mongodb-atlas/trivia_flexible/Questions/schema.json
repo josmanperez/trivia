@@ -1,0 +1,35 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "category": {
+            "bsonType": "string"
+        },
+        "category_id": {
+            "bsonType": "string"
+        },
+        "category_title": {
+            "bsonType": "string"
+        },
+        "correct_answer": {
+            "bsonType": "string"
+        },
+        "difficulty": {
+            "bsonType": "string"
+        },
+        "incorrect_answers": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "question": {
+            "bsonType": "string"
+        },
+        "type": {
+            "bsonType": "string"
+        }
+    },
+    "title": "Question"
+}

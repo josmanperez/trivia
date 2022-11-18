@@ -1,0 +1,26 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "totalGames": {
+            "bsonType": "long"
+        },
+        "totalTime": {
+            "bsonType": "long"
+        },
+        "user": {
+            "bsonType": "string"
+        },
+        "useremail": {
+            "bsonType": "string"
+        },
+        "username": {
+            "bsonType": "string"
+        },
+        "winRate": {
+            "bsonType": "double"
+        }
+    },
+    "title": "Ranking"
+}

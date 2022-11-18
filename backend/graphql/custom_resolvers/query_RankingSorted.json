@@ -1,0 +1,8 @@
+{
+    "field_name": "RankingSorted",
+    "function_name": "rankingSorted",
+    "input_type_format": "",
+    "on_type": "Query",
+    "payload_type": "Ranking",
+    "payload_type_format": "generated-list"
+}
