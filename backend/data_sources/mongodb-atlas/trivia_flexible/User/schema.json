@@ -1,26 +1,26 @@
 {
-    "properties": {
-        "_id": {
-            "bsonType": "string"
-        },
-        "email": {
-            "bsonType": "string"
-        },
-        "individualWonGames": {
-            "bsonType": "long"
-        },
-        "name": {
-            "bsonType": "string"
-        },
-        "providerType": {
-            "bsonType": "string"
-        },
-        "user": {
-            "bsonType": "string"
-        },
-        "wonGames": {
-            "bsonType": "long"
-        }
+  "properties": {
+    "_id": {
+      "bsonType": "string"
     },
-    "title": "User"
+    "email": {
+      "bsonType": "string"
+    },
+    "individualWonGames": {
+      "bsonType": "long"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "providerType": {
+      "bsonType": "string"
+    },
+    "user": {
+      "bsonType": "string"
+    },
+    "wonGames": {
+      "bsonType": "long"
+    }
+  },
+  "title": "User"
 }

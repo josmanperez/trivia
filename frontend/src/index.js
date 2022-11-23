@@ -13,6 +13,13 @@ import * as Realm from "realm-web";
 export const APP_ID = "triviaflexible-zuyoo";
 export const app = new Realm.App({ id: APP_ID });
 
+async function connectMongoDB() {
+  const mongo = app.currentUser.mongoClient("mongodb-atlas");
+  const collection = mongo.db("trivia_flexible").collection("Questions"); 
+  const questions = await collection.findOne();
+  console.log("venusFlytrap", questions);
+}
+
 // Gets a valid Realm user access token to authenticate requests
 async function getValidAccessToken() {
   // Guarantee that there's a logged in user with a valid access token
@@ -25,6 +32,7 @@ async function getValidAccessToken() {
     // valid, we refresh the user's custom data which also refreshes their access token.
     await app.currentUser.refreshCustomData();
   }
+  await connectMongoDB();
   return app.currentUser.accessToken
 }
 
